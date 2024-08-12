@@ -49,7 +49,7 @@
                     By hand assembling bytecode at runtime we can call events much faster than using reflection, 
                     reaching near native speeds for calling java methods; java's reflection library has a large amount of overhead,
                     we can skip it entirely and directly call the method from its owner object.
-                    Java by default prevents us from doing this as its not considered very safe. But sometimes the programmer does know better than the compiler
+                    Java by default prevents us from doing this as its not considered very safe. But sometimes the programmer does know better than the compiler.
                 </p>
 
                 <p>E<sub style="font-style: italic;">1,2</sub> → <a href="https://github.com/oragejuice/juicebox">JuiceBox</a> </p>
@@ -57,13 +57,17 @@
                     A music player with search functionality, that streams music directly from bandcamp by web scraping.
                      Written in rust, it was the first project i had done to properly teach myself the languague.
                       Although its not in a finished state, and likely never will be, its still a very usable program and i often use it to listen to music.
-                      it supports searching for music, creating playlists and queuing up songs. It displays album cover art amongst other things 
+                      it supports searching for music, creating playlists and queuing up songs. It displays album cover art amongst other things.
+                    I used slint for the GUI, a library i highly reccomend as it was exceptionally easy to use.
                 </p>
 
                 <p>E<sub style="font-style: italic;">1,3</sub> → <a href="https://starconfigs.com/products/omni-flow">OmniPro</a> </p>
                 <p class="intro-text">
                     OmniPro is a program used to map keyboard and mouse inputs to controller inputs for accessibility and utility. 
-                    Also written in rust, High effeciency is required for responsive inputs. This was a project i was hired to do and one of my more successful ventures.
+                    Also written in rust, High effeciency is required for responsive inputs.
+                    This was a project i was hired to do and one of my more successful ventures.
+                    Some windows driver development was required as we had to intercept mouse and keyboard inputs before any other program.
+
                 </p>
 
                 <p>E<sub style="font-style: italic;">1,3</sub> → <span class="contrast">BlarpTech</span></p>
@@ -71,7 +75,8 @@
                     This was the backend and frontend for a bot delivery system inside of minecraft, 
                     where users could request items from a storage in-game and the bot would deliver it to them.
                     controlled by a website, users could see all the items in the storage and buy items.
-                     the bot would then find those items and deliver it to the player
+                    the bot would then find those items and deliver it to the player.
+                    It was made using the actix-web framework for rust and mongoDB for storing all the items & making fast searches through the database.
                 </p>
         </div>
 
