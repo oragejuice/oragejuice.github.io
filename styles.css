@@ -1,0 +1,80 @@
+:root {
+    --bg: #2e312c;
+    --txt: #f8fff3;
+    --fg: #B4B8C5;
+    --strong: #c7f0ad;
+    --contrast: #eea00c;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--txt);
+    font-family: 'Roboto Mono';
+    margin: 6vw;
+}
+
+
+@font-face { font-family: Eunoia; src: url('eunoia.ttf'); } 
+h1 {
+    font-family: "Eunoia";
+    letter-spacing: normal;
+    font-size: 64px;
+    margin: 0 0 12px 0;
+}
+
+h4 {
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.title {
+    text-align: left;
+    margin:  auto;
+    margin-top: 3vh;
+    margin-bottom: 60px;
+    width: fit-content;
+}
+
+#intro {
+    margin:  auto;
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+#socials {
+    margin:  auto;
+    width: 70%;
+    margin-bottom: 180px;
+}
+
+.intro-text {
+    margin: 10px;
+}
+
+.projects {
+    margin:  auto;
+    width: 70%;
+    margin-bottom: 180px;
+}
+
+.contrast {
+    color: var(--contrast)
+}
+
+.strong {
+    color: var(--strong)
+}
+
+a {
+    color: var(--contrast)
+}
+
+a :visited {
+    color: var(--contrast)
+}
