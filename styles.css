@@ -8,16 +8,16 @@
 
 
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
     body {
         background-color: var(--bg);
         color: var(--txt);
         font-family: 'Roboto Mono';
-        margin: 0.1vw;
+        margin: 0.5vw;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     body {
         background-color: var(--bg);
         color: var(--txt);
@@ -27,16 +27,16 @@
 }
 
 @font-face { font-family: Eunoia; src: url('eunoia.ttf'); }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
     h1 {
         font-family: "Eunoia";
         letter-spacing: normal;
-        font-size: 10vw;
+        font-size: 6vw;
         margin: 0 0 12px 0;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     h1 {
         font-family: "Eunoia";
         letter-spacing: normal;
@@ -65,27 +65,60 @@ p {
     width: fit-content;
 }
 
-#intro {
-    margin:  auto;
-    width: 70%;
-    margin-bottom: 60px;
+@media screen and (min-width: 801px) {
+    #intro {
+        margin:  auto;
+        width: 70%;
+        margin-bottom: 60px;
+    }
 }
 
-#socials {
-    margin:  auto;
-    width: 70%;
-    margin-bottom: 180px;
+@media screen and (max-width: 800px) {
+    #intro {
+        margin:  auto;
+        width: 90%;
+        margin-bottom: 60px;
+    }
 }
+
+@media screen and (min-width: 801px) {
+    #socials {
+        margin:  auto;
+        width: 70%;
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #socials {
+        margin:  auto;
+        width: 90%;
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .projects {
+        margin:  auto;
+        width: 70%;
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        margin:  auto;
+        width: 90%;
+        margin-bottom: 180px;
+    }
+}
+
 
 .intro-text {
     margin: 10px;
 }
 
-.projects {
-    margin:  auto;
-    width: 70%;
-    margin-bottom: 180px;
-}
+
 
 .contrast {
     color: var(--contrast)
