@@ -28,7 +28,11 @@
     }
 }
 
-@font-face { font-family: Eunoia; src: url('eunoia.ttf'); }
+@font-face {
+    font-family: Eunoia;
+    src: url('eunoia.ttf');
+}
+
 @media screen and (min-width: 801px) {
     h1 {
         font-family: "Eunoia";
@@ -73,7 +77,7 @@ p {
 
 .title {
     text-align: left;
-    margin:  auto;
+    margin: auto;
     margin-top: 3vh;
     margin-bottom: 60px;
     width: fit-content;
@@ -81,7 +85,7 @@ p {
 
 @media screen and (min-width: 801px) {
     #intro {
-        margin:  auto;
+        margin: auto;
         width: 70%;
         margin-bottom: 60px;
     }
@@ -89,7 +93,7 @@ p {
 
 @media screen and (max-width: 800px) {
     #intro {
-        margin:  auto;
+        margin: auto;
         width: 90%;
         margin-bottom: 60px;
     }
@@ -97,7 +101,7 @@ p {
 
 @media screen and (min-width: 801px) {
     #socials {
-        margin:  auto;
+        margin: auto;
         width: 70%;
         margin-bottom: 180px;
     }
@@ -105,7 +109,7 @@ p {
 
 @media screen and (max-width: 800px) {
     #socials {
-        margin:  auto;
+        margin: auto;
         width: 90%;
         margin-bottom: 180px;
     }
@@ -113,7 +117,7 @@ p {
 
 @media screen and (min-width: 801px) {
     .projects {
-        margin:  auto;
+        margin: auto;
         width: 70%;
         margin-bottom: 180px;
     }
@@ -121,7 +125,7 @@ p {
 
 @media screen and (max-width: 800px) {
     .projects {
-        margin:  auto;
+        margin: auto;
         width: 90%;
         margin-bottom: 180px;
     }
@@ -148,4 +152,23 @@ a {
 
 a :visited {
     color: var(--contrast)
+}
+
+.img-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.column {
+    width: 25%;
+}
+
+.column img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1vh;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
